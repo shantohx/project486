@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicInformation"
+    android:orientation="horizontal"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textLongMessage"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView_birthDate"
+        android:onClick="launchSecondActivity"
+        android:text="@string/next_step" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_blood"
+        android:layout_toEndOf="@+id/textView_birthDate"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="showDatePicker"
+        android:text="@string/set_date" />
+
+    <TextView
+        android:id="@+id/textView_birthDate"
+        android:layout_width="119dp"
+        android:layout_height="46dp"
+
+        android:layout_below="@+id/editText_blood"
+        android:layout_marginLeft="50dp"
+
+        android:text="@string/birth_date"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText_nid"
+        android:layout_width="341dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="NID"
+        android:inputType="textLongMessage"
+        android:text=""
+        android:layout_below="@+id/editText_name"
+        android:textAlignment="gravity" />
+
+    <EditText
+        android:id="@+id/editText_blood"
+        android:layout_width="341dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Blood Group"
+        android:inputType="textLongMessage"
+        android:text=""
+        android:layout_below="@+id/editText_nid"
+        android:textAlignment="gravity" />
+
+</RelativeLayout>

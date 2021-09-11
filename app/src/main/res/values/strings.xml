@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="next_step">Next Step</string>
+    <string name="hello_world">Hello World</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="set_date">Set Date</string>
+    <string name="birth_date">Birth Date:</string>
+
+
+    <string name="tab_personal">Personal Information</string>
+    <string name="tab_university">University Affiliation</string>
+
+    <string-array name="university">
+        <item>North South University</item>
+    </string-array>
+    <string-array name="department">
+        <item>CSE</item>
+    </string-array>
+    <string-array name="level">
+        <item>BSc.</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

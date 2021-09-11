@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="18dp"
+        android:text="Name:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/text_message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="12dp"
+        android:text="Date of Birth:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/text_message2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="12dp"
+        android:text="Blood Group:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/text_message4"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="12dp"
+        android:text="NID:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/text_message3"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="17dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_message2"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="13dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message3"
+        app:layout_constraintEnd_toEndOf="@+id/text_message"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/text_message" />
+
+    <TextView
+        android:id="@+id/text_message3"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message4"
+        app:layout_constraintEnd_toEndOf="@+id/text_message2"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/text_message2" />
+
+    <TextView
+        android:id="@+id/text_message4"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="14dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message5"
+        app:layout_constraintEnd_toEndOf="@+id/text_message3"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/text_message3" />
+
+    <TextView
+        android:id="@+id/text_message5"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="13dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message6"
+        app:layout_constraintEnd_toEndOf="@+id/text_message4"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/text_message4" />
+
+    <TextView
+        android:id="@+id/text_message6"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="12dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message7"
+        app:layout_constraintEnd_toEndOf="@+id/text_message5"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/text_message5" />
+
+    <TextView
+        android:id="@+id/text_message7"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="13dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message8"
+        app:layout_constraintEnd_toEndOf="@+id/text_message6"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/text_message6" />
+
+    <TextView
+        android:id="@+id/text_message8"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message9"
+        app:layout_constraintEnd_toEndOf="@+id/text_message7"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/text_message7" />
+
+    <TextView
+        android:id="@+id/text_message9"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="13dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_message10"
+        app:layout_constraintEnd_toEndOf="@+id/text_message8"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/text_message8" />
+
+    <TextView
+        android:id="@+id/text_message10"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="231dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_message9"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/text_message9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="406dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="411dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="502dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="12dp"
+        android:text="University"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/text_message5"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="12dp"
+        android:text="Department"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toStartOf="@+id/text_message6"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="12dp"
+        android:text="Student ID:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/text_message7"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="18dp"
+        android:text="Study Level:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/text_message8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="18dp"
+        android:text="Email:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toStartOf="@+id/text_message9"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="230dp"
+        android:text="Phone No:"
+        android:textAlignment="center"
+        android:textColor="#061755"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_message10"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
